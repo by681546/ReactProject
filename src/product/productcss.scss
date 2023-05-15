@@ -1,0 +1,41 @@
+body{
+  background-color: white;
+}
+.prod{
+    /* background-color:coral; */
+    margin: 10px;
+    width: 50%;
+    padding: 30px;
+    margin-left: 32.5%;
+    background-color: white;
+    height: 350px;
+   
+  }
+  .images{
+    width: 100%;
+    height: 220px;
+  }
+  .prodUl{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style-type: none;
+    
+  }
+  .btnAdd{
+    width: 100%;
+    margin-top: 10px;
+    background-color: rgb(250, 208, 156);
+    padding: 10px;
+    border-radius: 5px;
+    border: rgb(250, 208, 156);
+  }
+  .btnAdd:hover{
+    background-color: rgb(248, 217, 179);
+  }
+   .btnAdd:active{
+    background-color: rgb(241, 211, 174);
+  }
+  
+   
+   
+  
